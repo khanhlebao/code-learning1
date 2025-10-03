@@ -1,0 +1,16 @@
+---
+
+## 7. Câu hỏi để hỏi học sinh
+1. `this` trong arrow function vì sao không là object chứa nó?
+2. Khi nào `this` là `window`? Khi nào là `undefined`?
+3. `call()` khác gì với `apply()`?
+4. `bind()` có gọi hàm ngay không? Dùng trong trường hợp nào?
+5. Nêu em cần truyền `this` vào hàm trong `setTimeout`, em dùng cách nào?
+
+---
+
+## 8. Gợi ý dẫn dắt bài tập cho học sinh
+- Bắt đầu từ object đơn giản: `student.sayHi()`.
+- Tiếp theo tách `sayHi` ra và gọi bằng `call()`.
+- Chuyển sang `apply()` để truyền tham số.
+- Cuối cùng, sử dụng `bind()` để delay hàm sau 2 giây.
